@@ -1,0 +1,29 @@
+{
+  "name": "@prism/demo-earn",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev -p 4200",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@creit-tech/stellar-wallets-kit": "npm:@jsr/creit-tech__stellar-wallets-kit@^2.2.0",
+    "@prism/near-chainsig-spike": "file:../../packages/near-chainsig-spike",
+    "@prism/stellar-earn-core": "file:../../packages/stellar-earn-core",
+    "@prism/stellar-wallet": "file:../../packages/stellar-wallet",
+    "@stellar/stellar-sdk": "^13.3.0",
+    "next": "^16.1.4",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-hot-toast": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.8.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "typescript": "^5.9.3"
+  }
+}
